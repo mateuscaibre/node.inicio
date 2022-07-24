@@ -1,5 +1,7 @@
 const { stat } = require('fs');
 const os = require('os')
+const log = require('./logger')
+
 
 setInterval(() => {
 
@@ -18,6 +20,9 @@ const stats = {
 console.clear();
 console.log('======STATUS MEMORY======');
 console.table(stats);
+
+log(`${JSON.stringify(stats)}\n`);
+
 
 
 
