@@ -1,0 +1,24 @@
+{
+  "name": "nodeinicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuscaibre/node.inicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuscaibre/node.inicio/issues"
+  },
+  "homepage": "https://github.com/mateuscaibre/node.inicio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
