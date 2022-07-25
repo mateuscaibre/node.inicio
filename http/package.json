@@ -5,7 +5,9 @@
   "main": "logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "api": "nodemon api/index.js",
+    "app": "nodemon public/index.html"
   },
   "repository": {
     "type": "git",
